@@ -27,7 +27,8 @@ class ViewController: UIViewController {
     }
     var motionManager = CMMotionManager()
     let opQueue = OperationQueue()
-    var count = 7
+    var hiddencount = 7
+    var count = 5
     var xmax = 0.0
     var ymax = 0.0
     var zmax = 0.0
@@ -86,11 +87,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @objc func update(){
-        if(count > 0){
-            if count == 3{
+        if(hiddencount > 0){
+            if count == 1{
             toggleTorch(on: true)
+            countDownLabel.isHidden = true
             }
             count -= 1
+            hiddencount -= 1
             countDownLabel.text = String(count)
         }
         else{
@@ -106,7 +109,12 @@ class ViewController: UIViewController {
             }
             total *= 1000
             let power = Int(total)
-            powerLabel.text = "Power Levels: "+String(power)
+            if power > 9000 {
+                powerLabel.text = "IT'S OVER 9000!!: "+String(power)
+            }
+            else{
+                powerLabel.text = "Power Levels: "+String(power)
+            }
             powerLabel.isHidden = false
 
         }
@@ -115,7 +123,9 @@ class ViewController: UIViewController {
         if timer != nil {
             timer!.invalidate()
             timer = nil
-            count = 7
+            hiddencount = 7
+            count = 5
+            countDownLabel.isHidden = false
         }
     }
     func startReadingMotionData() {

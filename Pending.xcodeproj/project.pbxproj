@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5ABBA82920521DD60033BF97 /* energy beam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA82820521DD60033BF97 /* energy beam.jpg */; };
-		5ABBA83720522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA83620522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 */; };
+		5A84339C2052F365007612FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A84339B2052F365007612FD /* Main.storyboard */; };
+		5A84339E2052F373007612FD /* energy beam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A84339D2052F373007612FD /* energy beam.jpg */; };
+		5A8433A02052F37A007612FD /* Kame Hame Ha - Sound Effect 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A84339F2052F37A007612FD /* Kame Hame Ha - Sound Effect 5.mp3 */; };
 		5AE0778D2051F4E4009F5395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0778C2051F4E4009F5395 /* AppDelegate.swift */; };
 		5AE0778F2051F4E4009F5395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0778E2051F4E4009F5395 /* ViewController.swift */; };
 		5AE077942051F4E4009F5395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE077932051F4E4009F5395 /* Assets.xcassets */; };
@@ -35,8 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5ABBA82820521DD60033BF97 /* energy beam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "energy beam.jpg"; path = "../../../../../energy beam.jpg"; sourceTree = "<group>"; };
-		5ABBA83620522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kame Hame Ha - Sound Effect 5.mp3"; path = "../../../../../Kame Hame Ha - Sound Effect 5.mp3"; sourceTree = "<group>"; };
+		5A84339B2052F365007612FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		5A84339D2052F373007612FD /* energy beam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "energy beam.jpg"; sourceTree = SOURCE_ROOT; };
+		5A84339F2052F37A007612FD /* Kame Hame Ha - Sound Effect 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kame Hame Ha - Sound Effect 5.mp3"; sourceTree = SOURCE_ROOT; };
 		5AE077892051F4E4009F5395 /* Pending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE0778C2051F4E4009F5395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE0778E2051F4E4009F5395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,9 +101,10 @@
 		5AE0778B2051F4E4009F5395 /* Pending */ = {
 			isa = PBXGroup;
 			children = (
-				5ABBA83620522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 */,
-				5ABBA82820521DD60033BF97 /* energy beam.jpg */,
+				5A84339F2052F37A007612FD /* Kame Hame Ha - Sound Effect 5.mp3 */,
+				5A84339D2052F373007612FD /* energy beam.jpg */,
 				5AE0778C2051F4E4009F5395 /* AppDelegate.swift */,
+				5A84339B2052F365007612FD /* Main.storyboard */,
 				5AE0778E2051F4E4009F5395 /* ViewController.swift */,
 				5AE077932051F4E4009F5395 /* Assets.xcassets */,
 				5AE077952051F4E4009F5395 /* LaunchScreen.storyboard */,
@@ -236,9 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE077972051F4E4009F5395 /* LaunchScreen.storyboard in Resources */,
+				5A84339C2052F365007612FD /* Main.storyboard in Resources */,
+				5A8433A02052F37A007612FD /* Kame Hame Ha - Sound Effect 5.mp3 in Resources */,
+				5A84339E2052F373007612FD /* energy beam.jpg in Resources */,
 				5AE077942051F4E4009F5395 /* Assets.xcassets in Resources */,
-				5ABBA82920521DD60033BF97 /* energy beam.jpg in Resources */,
-				5ABBA83720522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

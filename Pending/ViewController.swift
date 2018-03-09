@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     var motionManager = CMMotionManager()
     let opQueue = OperationQueue()
-    var count = 5
+    var count = 7
     var xmax = 0.0
     var ymax = 0.0
     var zmax = 0.0
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     }
     func playSound() {
         
-        let audioFilePath = Bundle.main.path(forResource: "Kame Hame Ha - Sound Effect 1", ofType: "mp3")
+        let audioFilePath = Bundle.main.path(forResource: "Kame Hame Ha - Sound Effect 5", ofType: "mp3")
         
         if audioFilePath != nil {
             
@@ -87,6 +87,9 @@ class ViewController: UIViewController {
     }
     @objc func update(){
         if(count > 0){
+            if count == 3{
+            toggleTorch(on: true)
+            }
             count -= 1
             countDownLabel.text = String(count)
         }
@@ -105,14 +108,14 @@ class ViewController: UIViewController {
             let power = Int(total)
             powerLabel.text = "Power Levels: "+String(power)
             powerLabel.isHidden = false
-            toggleTorch(on: true)
+
         }
     }
     func stoptimer(){
         if timer != nil {
             timer!.invalidate()
             timer = nil
-            count = 5
+            count = 7
         }
     }
     func startReadingMotionData() {

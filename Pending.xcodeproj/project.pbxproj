@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5ABBA82720521BB10033BF97 /* Kame Hame Ha - Sound Effect 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA82620521BB10033BF97 /* Kame Hame Ha - Sound Effect 1.mp3 */; };
 		5ABBA82920521DD60033BF97 /* energy beam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA82820521DD60033BF97 /* energy beam.jpg */; };
+		5ABBA83720522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBA83620522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 */; };
 		5AE0778D2051F4E4009F5395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0778C2051F4E4009F5395 /* AppDelegate.swift */; };
 		5AE0778F2051F4E4009F5395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0778E2051F4E4009F5395 /* ViewController.swift */; };
-		5AE077922051F4E4009F5395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE077902051F4E4009F5395 /* Main.storyboard */; };
 		5AE077942051F4E4009F5395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE077932051F4E4009F5395 /* Assets.xcassets */; };
 		5AE077972051F4E4009F5395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE077952051F4E4009F5395 /* LaunchScreen.storyboard */; };
 		5AE077A22051F4E4009F5395 /* PendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE077A12051F4E4009F5395 /* PendingTests.swift */; };
@@ -36,12 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5ABBA82620521BB10033BF97 /* Kame Hame Ha - Sound Effect 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kame Hame Ha - Sound Effect 1.mp3"; path = "../../../../../Kame Hame Ha - Sound Effect 1.mp3"; sourceTree = "<group>"; };
 		5ABBA82820521DD60033BF97 /* energy beam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "energy beam.jpg"; path = "../../../../../energy beam.jpg"; sourceTree = "<group>"; };
+		5ABBA83620522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kame Hame Ha - Sound Effect 5.mp3"; path = "../../../../../Kame Hame Ha - Sound Effect 5.mp3"; sourceTree = "<group>"; };
 		5AE077892051F4E4009F5395 /* Pending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE0778C2051F4E4009F5395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE0778E2051F4E4009F5395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AE077912051F4E4009F5395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AE077932051F4E4009F5395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE077962051F4E4009F5395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE077982051F4E4009F5395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,11 +99,10 @@
 		5AE0778B2051F4E4009F5395 /* Pending */ = {
 			isa = PBXGroup;
 			children = (
+				5ABBA83620522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 */,
 				5ABBA82820521DD60033BF97 /* energy beam.jpg */,
-				5ABBA82620521BB10033BF97 /* Kame Hame Ha - Sound Effect 1.mp3 */,
 				5AE0778C2051F4E4009F5395 /* AppDelegate.swift */,
 				5AE0778E2051F4E4009F5395 /* ViewController.swift */,
-				5AE077902051F4E4009F5395 /* Main.storyboard */,
 				5AE077932051F4E4009F5395 /* Assets.xcassets */,
 				5AE077952051F4E4009F5395 /* LaunchScreen.storyboard */,
 				5AE077982051F4E4009F5395 /* Info.plist */,
@@ -241,8 +238,7 @@
 				5AE077972051F4E4009F5395 /* LaunchScreen.storyboard in Resources */,
 				5AE077942051F4E4009F5395 /* Assets.xcassets in Resources */,
 				5ABBA82920521DD60033BF97 /* energy beam.jpg in Resources */,
-				5AE077922051F4E4009F5395 /* Main.storyboard in Resources */,
-				5ABBA82720521BB10033BF97 /* Kame Hame Ha - Sound Effect 1.mp3 in Resources */,
+				5ABBA83720522A960033BF97 /* Kame Hame Ha - Sound Effect 5.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5AE077902051F4E4009F5395 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AE077912051F4E4009F5395 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5AE077952051F4E4009F5395 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

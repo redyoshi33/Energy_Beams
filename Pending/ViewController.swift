@@ -23,6 +23,9 @@ class ViewController: UIViewController {
             zmax = 0.0
             playSound()
         }
+        if blinktimer == nil {
+            blinktimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(flicker), userInfo: nil, repeats: true)
+        }
         toggleTorch(on: false)
     }
     var motionManager = CMMotionManager()
@@ -33,6 +36,7 @@ class ViewController: UIViewController {
     var ymax = 0.0
     var zmax = 0.0
     var timer: Timer? = nil
+    var blinktimer: Timer? = nil
     var audioPlayer:AVAudioPlayer!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,8 +90,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @objc func flicker(){
+        toggleTorch(on: true);
+        toggleTorch(on: false);
+    }
     @objc func update(){
         if(hiddencount > 0){
+            if count == 2 {
+                if blinktimer != nil{
+                    blinktimer!.invalidate()
+                    blinktimer = nil
+                }
+            }
             if count == 1{
             toggleTorch(on: true)
             countDownLabel.isHidden = true
